@@ -1,5 +1,17 @@
 # Changelog / 更新记录
 
+## 0.1.1 — 2026-10-24
+
+### English
+
+- Use the declared isolated build environment in CI, rather than a runner's missing or outdated setuptools backend.
+- Verify source and wheel builds on macOS/Linux across Python 3.11, 3.13, and 3.14; tag pushes reuse the validated commit instead of duplicating the matrix.
+
+### 简体中文
+
+- CI 使用项目声明的隔离构建环境，避免依赖运行器缺失或过旧的 setuptools。
+- 在 macOS/Linux 的 Python 3.11、3.13、3.14 上验证源码和 wheel 构建；标签复用已验证提交，避免重复运行矩阵。
+
 ## 0.1.0 — 2026-10-24
 
 ### English
