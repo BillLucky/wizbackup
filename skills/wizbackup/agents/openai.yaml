@@ -1,0 +1,6 @@
+interface:
+  display_name: "WizBackup"
+  short_description: "Back up and recover WizNote libraries locally"
+  default_prompt: "Use $wizbackup to back up my authorized WizNote libraries or recover an existing local archive, keeping private data separate from the software checkout."
+policy:
+  allow_implicit_invocation: true

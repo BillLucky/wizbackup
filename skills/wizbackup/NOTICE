@@ -1,0 +1,13 @@
+WizBackup
+Copyright 2026 WizBackup contributors
+
+Licensed under the Apache License, Version 2.0.
+
+This is an independent project, not an official WizNote client.
+WizNote and other product names are trademarks of their respective owners.
+
+Protocol behavior was researched using public client source and documentation.
+References are documented in docs/RESEARCH.md. No vendor client binaries,
+fonts, user accounts, notes, credentials, or proprietary backup data are
+distributed with this software. Third-party Python dependencies retain
+their respective licenses.

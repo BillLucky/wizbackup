@@ -1,0 +1,12 @@
+include LICENSE NOTICE README.md README.zh-CN.md CONTRIBUTING.md SECURITY.md CHANGELOG.md requirements.lock AGENTS.md plugin.json
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include scripts *.py *.sh
+recursive-include skills *.md *.yaml
+recursive-include skills LICENSE NOTICE
+global-exclude __pycache__ *.py[cod] .DS_Store
+prune .private
+prune backups
+prune archives
+prune .demo

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wizbackup",
+  "version": "0.1.0",
+  "description": "Local WizNote backup, offline recovery and vault export with a privacy-focused agent skill"
+}

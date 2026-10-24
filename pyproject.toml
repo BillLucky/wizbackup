@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wizbackup"
+version = "0.1.0"
+description = "Private, resumable WizNote archival and offline export"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "WizBackup contributors"}]
+requires-python = ">=3.11"
+dependencies = ["requests>=2.32,<3", "markdownify>=1.2,<2", "beautifulsoup4>=4.13,<5", "rich>=14,<16", "cryptography>=46"]
+
+[project.urls]
+Homepage = "https://github.com/BillLucky/wizbackup"
+Repository = "https://github.com/BillLucky/wizbackup"
+Issues = "https://github.com/BillLucky/wizbackup/issues"
+
+[project.optional-dependencies]
+dev = ["build>=1,<2"]
+
+[project.scripts]
+wizbackup = "wizbackup.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

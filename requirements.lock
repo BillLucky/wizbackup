@@ -1,0 +1,17 @@
+beautifulsoup4==4.15.0
+certifi==2026.10.23
+cffi==2.1.1
+charset-normalizer==3.5.2
+cryptography==50.0.2
+idna==3.20
+markdown-it-py==4.2.0
+markdownify==1.2.3
+mdurl==0.1.2
+pycparser==3.12
+Pygments==2.21.0
+requests==2.34.2
+rich==15.0.0
+six==1.17.0
+soupsieve==3.0.4
+typing_extensions==4.16.0
+urllib3==2.8.0

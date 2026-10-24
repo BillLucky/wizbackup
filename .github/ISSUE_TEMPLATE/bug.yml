@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible software issue using synthetic data.
+body:
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have removed tokens, passwords, real notes, database snapshots, private URLs and account identifiers.
+          required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: WizBackup version, OS, and Python version.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and synthetic reproduction
+      description: Use the demo generator or a synthetic fixture. Do not attach a real backup or HAR.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and observed behavior
+      description: Include a redacted error class/code rather than full request URLs or authentication headers.
